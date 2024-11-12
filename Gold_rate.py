@@ -9,6 +9,6 @@ class GoldRate:
         Tk = (self.weight / 31.1035) * self.xauusdm * self.tk
         return Tk
 
-price = GoldRate(2721, 11.66, 124)
+price = GoldRate(2737, 11.66, 124)
 gold_price_in_tk = price.ounce()
 print(gold_price_in_tk)
